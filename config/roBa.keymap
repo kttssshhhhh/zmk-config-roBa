@@ -96,7 +96,6 @@
 
             label = "MKP_EXIT_AML";
         };
-
     };
 
     behaviors {
@@ -118,7 +117,6 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
-    
     };
 
     keymap {
@@ -168,10 +166,10 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q  &to_layer_0 W  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                      &to_layer_0 Y  &mkp MB5       &mkp MB2  &to_layer_0 O  &to_layer_0 P
-&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &trans  &mkp MB4       &mkp MB1       &mkp MB3  &to_layer_0 L  &trans
-&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans      &trans  &to_layer_0 N  &to_layer_0 M  &trans    &trans         &trans
-&trans         &trans         &trans         &trans         &trans         &trans      &trans  &trans                                                 &trans
+&to_layer_0 Q  &to_layer_0 W  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                         &to_layer_0 Y  &mkp MB5       &mkp MB2  &to_layer_0 O  &to_layer_0 P
+&to_layer_0 A  &to_layer_0 S  &to_layer_0 D  &to_layer_0 F  &to_layer_0 G  &trans      &trans     &mkp MB4       &mkp MB1       &mkp MB3  &to_layer_0 L  &trans
+&to_layer_0 Z  &to_layer_0 X  &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans      &trans     &to_layer_0 N  &to_layer_0 M  &trans    &trans         &trans
+&trans         &trans         &trans         &lt 2 ESCAPE   &trans         &trans      &lt 0 TAB  &trans                                                 &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
