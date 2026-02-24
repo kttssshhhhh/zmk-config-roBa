@@ -13,8 +13,7 @@
 &trackball {
     automouse-layer = <4>;
     scroll-layers = <5>;
-    automouse-timeout-ms = <1000>;
-    automouse-debounce-ms = <50>;
+ 
 };
 
 / {
