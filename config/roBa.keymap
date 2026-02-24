@@ -157,7 +157,7 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        SCROLL {
+        layer_3 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
@@ -177,7 +177,7 @@
             sensor-bindings = <&scroll_up_down>;
         };
 
-        layer_5 {
+        SCROLL {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
