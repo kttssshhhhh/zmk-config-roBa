@@ -35,7 +35,7 @@
         };
 
         double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
+            bindings = <&kp DQT>;
             key-positions = <20 21>;
         };
 
